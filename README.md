@@ -93,3 +93,15 @@ Gardens
 ```lua
 workspace.Gardens
 ```
+Wild Pet Spawn
+```lua
+workspace.Map.WildPetRef
+```
+Server Values
+```lua
+game:GetService("ReplicatedStorage").ServerValues
+```
+Shared Data
+```lua
+game:GetService("ReplicatedStorage").SharedData
+```
