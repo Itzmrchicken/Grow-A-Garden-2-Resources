@@ -145,3 +145,15 @@ Max Equipped Pets
 ```lua
 game:GetService("Players").LocalPlayer:GetAttribute("MaxEquippedPets")
 ```
+In Own Garden
+```lua
+game:GetService("Players").LocalPlayer:GetAttribute("IsInOwnGarden")
+```
+In Safezone
+```lua
+game:GetService("Players").LocalPlayer:GetAttribute("InSafeZone")
+```
+Stolen Carry Value
+```lua
+game:GetService("Players").LocalPlayer:GetAttribute("StolenCarryValue")
+```
