@@ -105,3 +105,35 @@ Shared Data
 ```lua
 game:GetService("ReplicatedStorage").SharedData
 ```
+Plot Id
+```lua
+game:GetService("Players").LocalPlayer:GetAttribute("PlotId")
+```
+Guild Id
+```lua
+game:GetService("Players").LocalPlayer:GetAttribute("GuildId")
+```
+Guild Name
+```lua
+game:GetService("Players").LocalPlayer:GetAttribute("GuildName")
+```
+Guild Role
+```lua
+game:GetService("Players").LocalPlayer:GetAttribute("GuildRole")
+```
+Guild Tag
+```lua
+game:GetService("Players").LocalPlayer:GetAttribute("GuildTag")
+```
+Friends Count
+```lua
+game:GetService("Players").LocalPlayer:GetAttribute("Friends")
+```
+Fruit Count
+```lua
+game:GetService("Players").LocalPlayer:GetAttribute("FruitCount")
+```
+Garden Likes
+```lua
+game:GetService("Players").LocalPlayer:GetAttribute("GardenLikes")
+```
