@@ -58,6 +58,10 @@ Event:FireServer(
     buffer.fromstring("V\x00\x00\x00\x00\x19\xBC\xD9\xD4A$6b079179-e8b7-47f3-ac8a-085e0fdc851f$a53d0413-ea6c-4c86-8423-d4c82eaebf63X\x00")
 )
 ```
+Send Notification
+```lua
+game:GetService("ReplicatedStorage").Notify:Fire("My Notification!")
+```
 
 # Folders
 
@@ -156,4 +160,12 @@ game:GetService("Players").LocalPlayer:GetAttribute("InSafeZone")
 Stolen Carry Value
 ```lua
 game:GetService("Players").LocalPlayer:GetAttribute("StolenCarryValue")
+```
+Weather Values
+```lua
+game:GetService("ReplicatedStorage").WeatherValues
+```
+Assets
+```lua
+game:GetService("ReplicatedStorage").Assets
 ```
