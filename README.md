@@ -137,3 +137,11 @@ Garden Likes
 ```lua
 game:GetService("Players").LocalPlayer:GetAttribute("GardenLikes")
 ```
+Max Fruit Capacity
+```lua
+game:GetService("Players").LocalPlayer:GetAttribute("MaxFruitCapacity")
+```
+Max Equipped Pets
+```lua
+game:GetService("Players").LocalPlayer:GetAttribute("MaxEquippedPets")
+```
