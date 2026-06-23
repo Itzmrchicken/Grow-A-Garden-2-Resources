@@ -21,7 +21,7 @@ local garden = Folders.Gardens:FindFirstChild(string.format("Plot%i", plotId))
 
 local plants = garden:FindFirstChild("Plants")
 
--- Modules.Networking.TeleportButton.Request:Fire("Garden")
+Modules.Networking.TeleportButton.Request:Fire("Garden")
 
 for _, plant in plants:GetChildren() do
 	local fruits = plant:FindFirstChild("Fruits")
