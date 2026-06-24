@@ -163,3 +163,7 @@ Assets
 ```lua
 game:GetService("ReplicatedStorage").Assets
 ```
+Seed Pack Spawns (gold and rainbow seed pickup events)
+```lua
+workspace.Map.SeedPackSpawnServerLocations
+```
